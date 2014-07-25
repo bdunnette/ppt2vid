@@ -8,6 +8,10 @@
 #  get length of audio file, e.g. using process below
 #  display rendered slide for length of audio, adding this to output video file
 # 
+#Convert pptx to jpegs (via pdf) - from https://stackoverflow.com/questions/21523267/how-to-convert-pptx-files-to-jpg-or-png-for-each-slide-on-linux
+#libreoffice --headless --convert-to pdf filename.pptx
+#convert my_filename.pdf my_filename%d.jpg
+#
 #Get length of wav file - from https://stackoverflow.com/questions/7833807/get-wav-file-length-or-duration
 #import wave
 #import contextlib
